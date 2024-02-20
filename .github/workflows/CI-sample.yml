@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: deploy a program
-        with: 
+        env: 
           pass: ${{ secrets.PASSWORD }}
         run: | 
           echo deploy && echo $pass
