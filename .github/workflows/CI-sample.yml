@@ -41,6 +41,5 @@ jobs:
       - name: deploy a program
         with: 
           pass: ${{ secrets.PASSWORD }}
-        run:  | 
+        run: | 
           echo deploy && echo $pass
-  
